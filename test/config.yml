@@ -1,0 +1,23 @@
+model: mnist_model.py
+train_dataset: "mnist_train.pth"
+test_dataset: "mnist_test.pth"
+
+batch_size: 256
+learning_rate: 0.001
+epochs: 1
+max_iter: 20
+
+reference_model: mnist_model.py
+example_input: (1, 1, 28, 28)
+ignored_layers: None
+learning_rate_finetune: 0.001
+
+pruning_ratio: 0.9
+imp: tp.pruner.importance.MagnitudeImportance(p=2)
+
+
+
+
+
+
+
