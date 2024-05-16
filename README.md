@@ -1,4 +1,4 @@
-# [FeatureCloud CNN Quantization]
+# FeatureCloud CNN Quantization
 ### Image Classification with Quantization
 
 This application facilitates image classification using deep neural network models with the added capability of model quantization. It employs both post-static quantization and quantization-aware training (QAT) techniques from [PyTorch](https://pytorch.org/docs/stable/quantization.html) to compress the models, thereby reducing memory and computational requirements while maintaining performance.
