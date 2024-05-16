@@ -96,21 +96,12 @@ pip install featurecloud
 Then either download the quantization app image from the FeatureCloud docker repository:
 
 ```shell
-featurecloud app download featurecloud.ai/fc_quantization
+featurecloud app download featurecloud.ai/fc-quantization-app
 ```
 
 Or build the app locally:
 
 ```shell
-featurecloud app build featurecloud.ai/fc_quantization
+featurecloud app build featurecloud.ai/fc-quantization-app
 ```
 
-Please provide example data so others can run the model compression app with the desired settings in the `config.yml` file.
-
-#### Run the quantization app in the test-bed
-
-You can run the quantization app as a standalone app in the [FeatureCloud test-bed](https://featurecloud.ai/development/test) or [FeatureCloud Workflow](https://featurecloud.ai/projects). You can also run the app using CLI:
-
-```shell
-featurecloud test start --app-image featurecloud.ai/fc_quantization --client-dirs './sample_data/c1,./sample_data/c2' --generic-dir './sample_data/generic'
-```
