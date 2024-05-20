@@ -87,10 +87,10 @@ as forward pass. This applies quantization and dequantization to the input befor
 
 #### Prerequisite
 
-To run the quantization app, you should install Docker and FeatureCloud pip package:
+To run the quantization app, you should install Docker and fc-quantization pip package:
 
 ```shell
-pip install featurecloud
+pip install fc-quantization
 ```
 
 Then either download the quantization app image from the FeatureCloud docker repository:
